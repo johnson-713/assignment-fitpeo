@@ -20,20 +20,20 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="flex gap-[40px]">
-        <div className="flex gap-[20px]">
+        <div className="flex items-center gap-[20px]">
           {navData?.map((i, ind) => (
             <div
               key={i.id}
               className={`${
                 ind != 3 ? "bg-[#44454A]" : "bg-white"
-              } cursor-pointer flex items-center justify-center p-[10px] rounded-3xl`}
+              } cursor-pointer flex items-center justify-center w-[40px] h-[40px] p-[10px] rounded-[35px]`}
             >
-              <img width={25} src={i.img} alt="" />
+              <img width={25} height={25} src={i.img} alt="" />
             </div>
           ))}
         </div>
         <img
-          className="w-[50px] h-[50px] rounded-[25px] cursor-pointer"
+          className="w-[45px] h-[45px] rounded-[23px] cursor-pointer"
           width={40}
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdmX__TMVdiSC90cJN-7TOdZBJNwxsip97wQ&s"
           alt=""
