@@ -122,7 +122,7 @@ export default function AppTable() {
                     row.status == "Delivered"
                       ? "bg-[#115748] text-green-500"
                       : "bg-[#5C343D] text-red-500"
-                  } px-[10px] py-[5px] rounded-3xl w-[45%] flex justify-end items-end`}
+                  } px-[20px] py-[5px] rounded-3xl w-[45%] mr-[10px]`}
                 >
                   {row.status}
                 </div>
