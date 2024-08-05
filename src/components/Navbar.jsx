@@ -2,7 +2,7 @@ import { navData } from "../constants/constants";
 
 export const Navbar = () => {
   return (
-    <div className="bg-[#202028] py-[20px] px-[15px] flex justify-between">
+    <div className="bg-[#202028] sticky top-0 z-10 py-[20px] px-[15px] flex justify-between">
       <div className="flex gap-[30px]">
         <img
           src="/icons/logo.svg"
@@ -33,9 +33,9 @@ export const Navbar = () => {
           ))}
         </div>
         <img
-          className="w-[45px] h-[45px] rounded-[23px] cursor-pointer"
+          className="w-[45px] h-[45px] rounded-full cursor-pointer"
           width={40}
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdmX__TMVdiSC90cJN-7TOdZBJNwxsip97wQ&s"
+          src="/images/profile.jpg"
           alt=""
         />
       </div>

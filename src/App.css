@@ -1,0 +1,13 @@
+/* Dashboard.css */
+.feedback-container::-webkit-scrollbar {
+  width: 5px; /* Adjust width as needed */
+}
+
+.feedback-container::-webkit-scrollbar-track {
+  background-color: #2d3038; /* Adjust track color */
+}
+
+.feedback-container::-webkit-scrollbar-thumb {
+  background-color: #8c939e; /* Adjust thumb color */
+  border-radius: 5px; /* Add rounded corners */
+}
