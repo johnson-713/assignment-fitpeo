@@ -47,7 +47,12 @@ export const Dashboard = () => {
                 </div>
                 <p>{i.title}</p>
               </div>
-              <img width={20} src="/icons/chevron.svg" alt="" />
+              <img
+                width={20}
+                className="cursor-pointer"
+                src="/icons/chevron.svg"
+                alt=""
+              />
             </div>
           ))}
         </div>
