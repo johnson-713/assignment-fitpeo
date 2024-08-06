@@ -2,24 +2,28 @@ export const sidebarData = [
   {
     id: "55vjhvhj",
     img: "/icons/home-white.svg",
+    mob: 'Home',
     active: 'home',
     activeImg: '/icons/home.svg',
   },
   {
     id: "55vjhvytdt",
     img: "/icons/chart.svg",
+    mob: 'Stats',
     active: 'chart',
     activeImg: '/icons/chart.svg',
   },
   {
     id: "55vjhtydtfg",
     img: "/icons/clipboard.svg",
+    mob: 'Invoice',
     active: 'clip',
     activeImg: '/icons/clipboard.svg',
   },
   {
     id: "55vjhguvhj",
     img: "/icons/wallet.svg",
+    mob: 'Wallet',
     active: 'wallet',
     activeImg: '/icons/wallet.svg',
   },
@@ -27,6 +31,7 @@ export const sidebarData = [
     id: "55vjhvgcgytdt",
     img: "/icons/bag-ok.svg",
     active: 'bag',
+    mob: 'Cart',
     activeImg: '/icons/bag-ok.svg',
   },
 ];

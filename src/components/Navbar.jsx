@@ -2,7 +2,7 @@ import { navData } from "../constants/constants";
 
 export const Navbar = () => {
   return (
-    <div className="bg-[#202028] sticky top-0 z-10 py-[20px] px-[15px] flex justify-between">
+    <div className="bg-[#202028] sticky top-0 z-10 py-[20px] px-[15px] hidden md:flex justify-between">
       <div className="flex gap-[30px]">
         <img
           src="/icons/logo.svg"

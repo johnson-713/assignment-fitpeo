@@ -22,7 +22,7 @@ export const ProfitProgress = () => {
           </div>
         </Progress>
       </div>
-      <p className="text-[10px] mt-[5px]">*The values here has been rounded off</p>
+      <p className="text-[8px] md:text-[10px] mt-[5px]">*The values here has been rounded off</p>
       </div>
     </div>
   );

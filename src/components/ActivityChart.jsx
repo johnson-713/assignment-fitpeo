@@ -47,5 +47,5 @@ export const ActivityChart = () => {
     ],
   });
   console.log(setOptions);
-  return <AgCharts options={options} style={{ maxHeight: "200px" }} />;
+  return <AgCharts options={options} style={{ maxHeight: "200px", overflowX: 'auto' }} />;
 };

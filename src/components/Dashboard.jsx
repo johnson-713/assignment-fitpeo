@@ -10,7 +10,7 @@ export const Dashboard = () => {
   return (
     <div className="h-[100%] overflow-y-auto overflow-x-hidden">
       <p className="text-[#fff] text-[20px] font-bold mb-[30px]">Dashboard</p>
-      <div className="flex flex-1 gap-[30px] mb-[30px]">
+      <div className="flex flex-col md:flex-row flex-1 gap-[30px] mb-[30px]">
         <div className="flex-[0.6]">
           <Statistics data={statsData} />
         </div>
@@ -18,8 +18,8 @@ export const Dashboard = () => {
           <ProfitProgress />
         </div>
       </div>
-      <div className="flex gap-[30px] flex-1 mb-[30px]">
-        <div className="bg-[#1F2029] flex-[0.6] min-w-[770px] p-[20px] rounded-xl">
+      <div className="flex flex-col md:flex-row gap-[30px] flex-1 mb-[30px]">
+        <div className="bg-[#1F2029] flex-[0.6] md:min-w-[770px] p-[20px] rounded-xl">
           <div className="flex justify-between">
             <p className="text-[#fff] font-bold text-[20px] mb-[20px]">
               Activity
@@ -57,7 +57,7 @@ export const Dashboard = () => {
           ))}
         </div>
       </div>
-      <div className="flex gap-[30px] flex-1">
+      <div className="flex flex-col md:flex-row gap-[30px] flex-1">
         <div className="bg-[#1F2029] flex-[0.6] p-[20px] rounded-xl">
           <p className="text-[#fff] font-bold text-[20px] mb-[20px]">
             Recent Orders
